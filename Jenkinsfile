@@ -7,7 +7,7 @@ pipeline {
             steps {
                 // log.info 'Starting' 
                 script { 
-                    log .call
+                    log.call
                     log.info 'Starting'
                     log.warning 'Nothing to do!'
                 }
