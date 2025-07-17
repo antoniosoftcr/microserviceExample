@@ -1,5 +1,3 @@
-Jenkinsfile
-
 @Library('githublib') _
 
 pipeline {
