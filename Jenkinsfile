@@ -9,7 +9,7 @@ pipeline {
                 script { 
                     log.call()
                     log.info('Starting')
-                    log.warning('Nothing to do!')
+                    log.warning(name:'yi',msg:'Nothing to do!')
                 }
                 mystep {
                     echo 'OMGhss!'
