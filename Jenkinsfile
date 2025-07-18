@@ -1,7 +1,7 @@
 @Library('githublib') _
 
 pipeline {
-    agent none
+    //agent none
     stages {
         stage ('Example') {
             steps {
